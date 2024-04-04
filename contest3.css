@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+form{
+    margin-left: 30px;
+}
+p {
+    margin: 10px 0;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.fields {
+    padding: 5px;
+    width: 300px;
+    
+}
+
+button {
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#added {
+    font-size: 18px;
+    opacity: 0.5;
+    color: white;
+    margin-top: -40px;
+}
+
+.names {
+    margin-bottom: 5px;
+}
+
+#addEmployee{
+    margin-top: 40px;
+}
+
+#error{
+    margin-top: 10px;
+}
+
+#success{
+    margin-top: 10px;
+}

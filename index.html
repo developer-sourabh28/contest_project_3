@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contest3.css">
+</head>
+<body>
+    <h3 style="margin-left: 30px; margin-top: 50px;">New Employees</h3>
+    <form>
+        <div id="main" class="input-container">
+            <div class="input-group">
+                <p class="names">Enter Name</p>
+                <input id="nameInput" class="fields" type="text" required>
+            </div>
+
+            <div class="input-group">
+                <p id="profession" class="names">Enter Profession</p>
+                <input id="professionInput" class="fields" type="text" required>
+            </div>
+
+            <div class="input-group">
+                <p id="age" class="names">Enter Age</p>
+                <input id="ageInput" class="fields" type="number" required>
+            </div>
+        </div>
+
+        <button type="button" onclick="addEmployee()">Add User</button>
+
+        <div id="error"></div><div id="success"></div>
+
+        <p id="addEmployee">Added Employees</p>
+        <div id="added">You have 0 Employees</div>
+    </form>
+
+    <script src="./contest3.js"></script>
+</body>
+</html>
